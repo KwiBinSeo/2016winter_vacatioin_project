@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">택배</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="example">Example Source</string>
+    <string name="tab1_button">Button in First Tab</string>
+
+    <string name="title_section1">Tab 1</string>
+    <string name="title_section2">Tab 2</string>
+    <string name="title_section3">Tab 3</string>
+
+    <string name="sender">보내는 분</string>
+    <string name="recipient">받는 분</string>
+    <string name="search_address">주소 검색</string>
+    <string name="title_activity_activity_goods_info">activity_goods_info</string>
+</resources>

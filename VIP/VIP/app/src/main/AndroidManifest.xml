@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cg_vip.vip" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- 메인 화면 -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 인트로 화면 -->
+        <activity
+            android:name=".intro">
+        </activity>
+
+        <activity
+            android:name=".address_sender"
+            android:label="@string/sender" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".address_search_webview"
+            android:label="@string/search_address" >
+        </activity>
+        <activity
+            android:name=".address_recipient"
+            android:label="@string/recipient" >
+        </activity>
+        <activity
+            android:name=".goods_info"
+            android:label="물품정보" >
+        </activity>
+        <activity
+            android:name=".goods_check"
+            android:label="물품선택" >
+        </activity>
+    </application>
+
+</manifest>
