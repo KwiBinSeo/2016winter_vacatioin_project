@@ -53,6 +53,10 @@
             android:name=".goods_check"
             android:label="물품선택" >
         </activity>
+        <activity
+            android:name=".goods_summary"
+            android:label="물품요약" >
+        </activity>
     </application>
 
 </manifest>
